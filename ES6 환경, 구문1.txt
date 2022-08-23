@@ -1,0 +1,28 @@
+ES6 환경
+node.js/vscode/brackets 설치
+
+ES6 구문
+JS keywords
+
+break/case/var/module/finally/while/null/static
+as/if/number/type/for/void/super/return
+any/throw/string/instanceof(대신에)/enum(열거)/this/Catch/True
+Switch/Else/Get/Typeof/Export/New/let/False
+
+identifiers(식별자)
+(_), ($) 기호만 사용 가능 / 대소문자 중요 / 숫자X / keywords 사용 불가능
+
+{EX}   (O : firstName, first_name, num1, $result)
+        (X : Var, first name, first-name, 1number)
+
+ES6 공백, 줄 바꿈 상관 없음  
+
+JS 대소문자 구분, 세미콜론 선택 사항
+ex) console.log("hello world")
+    console.log("We are learning ES6")
+
+JS 주석(덧붙이는 말) : 한줄 주석(//), 여러 줄 주석(/* */)
+ex) //i am parkjian
+    /*age 19
+   high school student
+   */
