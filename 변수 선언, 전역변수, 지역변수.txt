@@ -1,0 +1,35 @@
+변수 선언
+ES5 : let 사용(var이랑 비슷) / const 사용
+ex) var variable_name = value
+
+변수 사용 예시
+ES6 ex) var name = "Tom"
+          console.log("The value in the variable is: "+name)      ----- The value in the variable is: Tom             
+스스로 변형) var number = "19"
+                 console.log("My age is: "+number)                  ----- My age is: 19
+
+Global scope(전역변수) : JS코드의 모든 부분에서 액세스 가능
+Local scope(지역변수) : 선언 된 함수 내에서 액세스 가능
+ES6 ex) var num = 10   <---{전역변수}
+          function test() {   <---{함수}
+          var num = 100   <---{지역변수}
+         console.log("value of num in test() "+num) 
+         } 
+         console.log("value of num outside test() "+num) 
+         test()
+---------
+value of num outside test(10)
+value of num in test(100)
+
+스스로 변형하기) var num = 100  <---{전역변수}
+                      funciton test() {  <---{함수}
+                      var num = 200  <---{지역변수}
+                     console.log("Hi: "+num)
+                      }
+                     console.log("Bye: "+num)
+                     test()
+  ----- 
+"Bye: 100"
+"Hi: 200"
+
+2022.08.24 AM08:56 ES6-Useful Resources-Global Vs Local variable 까지 완료
