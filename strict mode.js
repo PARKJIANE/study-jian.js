@@ -1,5 +1,10 @@
-v =15
-function f1() {
-"use strict";
-var v = "Hi! I'm a strict mode script!";
-}
+"use strict" 
+function test() { 
+   var num = 100 
+   console.log("value of num in test() "+num) { 
+      console.log("Inner Block begins") 
+      let num = 200 
+      console.log("value of num : "+num)  
+   } 
+} 
+test()
